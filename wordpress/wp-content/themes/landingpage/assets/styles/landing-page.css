@@ -1,0 +1,107 @@
+.landing-page-template {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F3F5F9 100%);
+    overflow: hidden;
+}
+.landing-page-template_container {
+    background-image: url(/wp-content/themes/landingpage/assets/images/banner.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*banner section*/
+.banner-container {
+    display: flex;
+    height: 715px;
+}
+.banner-container_text {
+    max-width: 40%;    
+    margin: auto 0;
+}
+.banner-container_text_header {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+    margin: 0;
+}
+.banner-container_text_description {
+    font-size: 22px;
+}
+
+/*timer section*/
+.timer-container {
+    position: relative;
+}
+.timer-container:before {
+    position: absolute;
+    height: 144px;
+    width: 100vw;
+    background-color: #fffffff5;
+    content: '';
+    left: 100px;
+    box-shadow: -5px 5px 30px #e1e1e1;
+}
+.timer-container_tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 144px;
+    position: relative;
+}
+.timer-container_section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.timer-container_section .timer {
+    position: relative;
+}
+.timer-container_section_mini-headers {
+    color: #748092;    
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+    font-size: 14px;
+}
+.timer-container_content {    
+    font-size: 30px;
+    margin: 0;
+}
+.timer-container_labels {
+    display: flex;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #748092;
+    justify-content: space-between;
+    padding: 0 5px;
+    position: absolute;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+/*timer section - button*/
+.timer-container_sign-up {
+    background-color: #4d94ff;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 80px;
+    height: fit-content;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/*terms and conditions section*/
+.landing-page-template .terms-conditions-container {
+    padding: 70px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #374250;
+}
+.terms-conditions-container_link{
+    color: #4D94FF;
+    cursor: pointer;
+    text-decoration: none;
+}

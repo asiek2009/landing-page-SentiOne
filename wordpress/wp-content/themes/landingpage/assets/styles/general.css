@@ -1,0 +1,13 @@
+body {
+    font-family: OpenSans-regular;
+    padding: 0;
+    margin: 0;
+}
+
+header, 
+.landing-page-template_container,
+.terms-conditions-container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: auto;
+}
